@@ -17,3 +17,5 @@ mongoose.connect(url, {
 
 var db = mongoose.connection;
 
+exports.db = db;
+
